@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "family": "scribble",
+  "model": "scribble-2",
+  "variant": 0,
+  "new_install_prompt_erase": false,
+  "bootloader": {
+    "address": "0x0000",
+    "fileName": "bootloader_scribble-2_v2.0.0.0-alpha.1.bin"
+  },
+  "partitions": {
+    "address": "0x8000",
+    "fileName": "partitions_scribble-2_v2.0.0.0-alpha.1.bin"
+  },
+  "ota": {
+    "address": "0x19000",
+    "fileName": "ota_scribble-2_v2.0.0.0-alpha.1.bin"
+  },
+  "application": {
+    "address": "0x20000",
+    "fileName": "scribble-2_v2.0.0.0-alpha.1.bin"
+  }
+}
